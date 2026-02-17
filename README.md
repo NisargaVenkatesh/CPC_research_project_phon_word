@@ -17,41 +17,42 @@ The project focuses on:
 
 ## Repository Structure
 
-From the root `CPC_research_project_phon_word/`:
+```md
+## Repository Structure
 
+```text
 CPC_research_project_phon_word/
-├── code/
-│   ├── train_word_cpc.py
-│   ├── __init__.py
-│   ├── src/
-│   │   ├── dataset/
-│   │   │   ├── __init__.py
-│   │   │   └── word_txt_dataset.py
-│   │   └── torch_models/
-│   │       ├── __init__.py
-│   │       └── _word_models.py
-│   └── tools/
-│       └── build_id_map_and_splits.py
-│
-├── Analysis/
-│   └── 20_eval/
-│       ├── hui_in_corpus_analogies.tsv
-│       ├── t1_eval_german_analogies_boosted.py
-│       ├── t1_make_clean_context.py
-│       ├── t1_make_clean_pair.py
-│       ├── t1_show_analogy_pass_fail.py
-│       └── t1_4_plot_analogy_topk.py
-│
-├── Dataset/
-│   └── id_map.json
-│
-├── Checkpoint/
-│   ├── wordcpc_20251031_220029_fullfit_cnnfixed_best_es10_best.pt
-│   └── wordcpc_20251031_220029_fullfit_cnnfixed_best_es10_wordbuilder.pt
-│
-├── requirements.txt
-└── README.md
-
+|-- code/
+|   |-- train_word_cpc.py
+|   |-- __init__.py
+|   |-- src/
+|   |   |-- dataset/
+|   |   |   |-- __init__.py
+|   |   |   `-- word_txt_dataset.py
+|   |   `-- torch_models/
+|   |       |-- __init__.py
+|   |       `-- _word_models.py
+|   `-- tools/
+|       `-- build_id_map_and_splits.py
+|
+|-- Analysis/
+|   `-- 20_eval/
+|       |-- hui_in_corpus_analogies.tsv
+|       |-- t1_eval_german_analogies_boosted.py
+|       |-- t1_make_clean_context.py
+|       |-- t1_make_clean_pair.py
+|       |-- t1_show_analogy_pass_fail.py
+|       `-- t1_4_plot_analogy_topk.py
+|
+|-- Dataset/
+|   `-- id_map.json
+|
+|-- Checkpoint/
+|   |-- wordcpc_20251031_220029_fullfit_cnnfixed_best_es10_best.pt
+|   `-- wordcpc_20251031_220029_fullfit_cnnfixed_best_es10_wordbuilder.pt
+|
+|-- requirements.txt
+`-- README.md
 
 Installation
 
