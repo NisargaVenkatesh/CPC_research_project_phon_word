@@ -1,0 +1,9 @@
+numpy
+pandas
+pyarrow
+scikit-learn
+torch
+tensorboard
+matplotlib
+spacy
+optuna
