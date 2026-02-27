@@ -20,7 +20,6 @@ The project focuses on:
 ```md
 ## Repository Structure
 
-```text
 CPC_research_project_phon_word/
 |-- code/
 |   |-- train_word_cpc.py
